@@ -5,9 +5,9 @@
 ## 项目运行
 
 ```
-git clone --path 1：  https://github.com/WoShi-God/GeoGebraTeaching-Aid-System.git
+git clone --path 1：  [https://github.com/WoShi-God/GeoGebraTeaching-Aid-System.git](https://github.com/WoShi-God/React-GeoGebraTeaching-Aid-System.git)
 
-cd  Reaact-GeoGebraTeaching-Aid-System
+cd  React-GeoGebraTeaching-Aid-System
 
 pnpm install 
 
