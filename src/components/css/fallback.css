@@ -1,0 +1,318 @@
+@charset "utf-8";
+.BoS{
+  background-color: rgb(213, 223, 235) !important;
+}
+#BOX{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(213, 223, 235) !important;
+}
+.container {
+  width: 40vw;
+  height: 40vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.common {
+  height: 5vw;
+  max-height: 100%;
+  overflow: auto;
+  width: 2vw;
+  margin: auto;
+  max-width: 100%;
+  position: absolute;
+  border-radius: 0vw 10vw 0vw 10vw;
+  box-shadow: inset 0vw 0vw 0vw .1vw #a7c5e9, 0vw 0vw 1.5vw 0vw #a8bfe7;
+}
+
+.one {
+  transform: rotate(45deg);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 7.5vw;
+}
+
+.two {
+  transform: rotate(90deg);
+  left: 5.5vw;
+  right: 0;
+  top: 0;
+  bottom: 5.5vw;
+}
+
+.three {
+  transform: rotate(135deg);
+  left: 7.5vw;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.four {
+  transform: rotate(180deg);
+  left: 5.5vw;
+  right: 0;
+  top: 5.5vw;
+  bottom: 0;
+}
+
+.five {
+  transform: rotate(225deg);
+  left: 0;
+  right: 0;
+  top: 7.5vw;
+  bottom: 0;
+}
+
+.six {
+  transform: rotate(270deg);
+  left: 0;
+  right: 5.5vw;
+  top: 5.5vw;
+  bottom: 0;
+}
+
+.seven {
+  transform: rotate(315deg);
+  left: 0;
+  right: 7.5vw;
+  top: 0;
+  bottom: 0;
+}
+
+.eight {
+  transform: rotate(360deg);
+  left: 0;
+  right: 5.5vw;
+  top: 0;
+  bottom: 5.5vw;
+}
+
+
+.one {
+  animation: one 1s ease infinite;
+  -moz-animation: one 1s ease infinite;
+  /* Firefox */
+  -webkit-animation: one 1s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: one 1s ease infinite;
+  /* Opera */
+}
+
+@keyframes one {
+  0%,
+  100% {}
+  50% {
+    
+    box-shadow: inset 0vw 0vw 0vw .1vw #89e4e5, 0vw 0vw 1.5vw 0vw #94e4e5;
+  }
+}
+
+.two {
+  animation: two 1s .125s ease infinite;
+  -moz-animation: two 1s .125s ease infinite;
+  /* Firefox */
+  -webkit-animation: two 1s .125s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: two 1s .125s ease infinite;
+  /* Opera */
+}
+
+@keyframes two {
+  0%,
+  100% {}
+  50% {
+    
+    box-shadow: inset 0vw 0vw 0vw .1vw #a2eced, 0vw 0vw 1.5vw 0vw #93e9eb;
+  }
+}
+
+.three {
+  animation: three 1s .20s ease infinite;
+  -moz-animation: three 1s .20s ease infinite;
+  /* Firefox */
+  -webkit-animation: three 1s .20s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: three 1s .20s ease infinite;
+  /* Opera */
+}
+
+@keyframes three {
+  0%,
+  100% {}
+  50% {
+  
+    box-shadow: inset 0vw 0vw 0vw .1vw #87e0e1, 0vw 0vw 1.5vw 0vw #8ddcdd;
+  }
+}
+
+.four {
+  animation: four 1s .375s ease infinite;
+  -moz-animation: four 1s .375s ease infinite;
+  /* Firefox */
+  -webkit-animation: four 1s .375s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: four 1s .375s ease infinite;
+  /* Opera */
+}
+
+@keyframes four {
+  0%,
+  100% {}
+  50% {
+    box-shadow: inset 0vw 0vw 0vw .1vw #86e4e5, 0vw 0vw 1.5vw 0vw #95e0e1;
+  }
+}
+
+.five {
+  animation: five 1s .5s ease infinite;
+  -moz-animation: five 1s .5s ease infinite;
+  /* Firefox */
+  -webkit-animation: five 1s .5s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: five 1s .5s ease infinite;
+  /* Opera */
+}
+
+@keyframes five {
+  0%,
+  100% {}
+  50% {
+   
+    box-shadow: inset 0vw 0vw 0vw .1vw #8cddde, 0vw 0vw 1.5vw 0vw #92dfe1;
+  }
+}
+
+.six {
+  animation: six 1s .625s ease infinite;
+  -moz-animation: six 1s .625s ease infinite;
+  /* Firefox */
+  -webkit-animation: six 1s .625s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: six 1s .625s ease infinite;
+  /* Opera */
+}
+
+@keyframes six {
+  0%,
+  100% {}
+  50% {
+    
+    box-shadow: inset 0vw 0vw 0vw .1vw #94e0e1, 0vw 0vw 1.5vw 0vw #90dfe0;
+  }
+}
+
+.seven {
+  animation: seven 1s .750s ease infinite;
+  -moz-animation: seven 1s .750s ease infinite;
+  /* Firefox */
+  -webkit-animation: seven 1s .750s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: seven 1s .750s ease infinite;
+  /* Opera */
+}
+
+@keyframes seven {
+  0%,
+  100% {}
+  50% {
+    
+    box-shadow: inset 0vw 0vw 0vw .1vw #91e2e3, 0vw 0vw 1.5vw 0vw #8fdedf;
+  }
+}
+
+.eight {
+  animation: eight 1s .875s ease infinite;
+  -moz-animation: eight 1s .875s ease infinite;
+  /* Firefox */
+  -webkit-animation: eight 1s .875s ease infinite;
+  /* Safari and Chrome */
+  -o-animation: eight 1s .875s ease infinite;
+  /* Opera */
+}
+
+@keyframes eight {
+  0%,
+  100% {}
+  50% {
+    
+    box-shadow: inset 0vw 0vw 0vw .1vw #94dfe0, 0vw 0vw 1.5vw 0vw #94e1e3;
+  }
+}
+
+.container {
+  animation: container 2s linear infinite;
+  -moz-animation: container 2s linear infinite;
+  /* Firefox */
+  -webkit-animation: container 2s linear infinite;
+  /* Safari and Chrome */
+  -o-animation: container 2s linear infinite;
+  /* Opera */
+}
+
+@keyframes container {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+
+.fade-in {
+  animation: fade-in 1s ease;
+  -moz-animation: fade-in 1s ease;
+  /* Firefox */
+  -webkit-animation: fade-in 1s ease;
+  /* Safari and Chrome */
+  -o-animation: fade-in 1s ease;
+  /* Opera */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.out {
+  animation: out 1s 10s ease;
+  -moz-animation: out 1s 10s ease;
+  /* Firefox */
+  -webkit-animation: out 1s 10s ease;
+  /* Safari and Chrome */
+  -o-animation: out 1s 10s ease;
+  /* Opera */
+  position: absolute;
+  top:-5vh;
+  left:60vh;
+}
+
+@keyframes out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.Loding{
+  position: absolute;
+  top:55vh;
+  left:35vh;
+}
+h2{
+  color: rgb(138, 177, 224);
+}

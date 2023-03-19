@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+  body{
+    /* background-image: url(./background.jpg); */
+    /* background-color: #f1f2f6; */
+    background-color: rgb(217, 231, 242);
+    background-image: url(../img/log.webp);
+    background-repeat:no-repeat;
+    background-size:500px;
+    background-position: 210px 130px;
+  }
+
+/* 白卡片 */
+/* 白卡片外壳 */
+.card {
+    
+    position: relative;
+    width: 440px;
+    height: 504px;
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 26px;
+    box-shadow: 35px 35px 68px 0px rgba(157, 177, 255, 0.2), inset -8px -8px 16px 0px rgba(157, 177, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    transition: all 0.3s;
+    cursor: default;
+    position: absolute;
+    top: 100px;
+    /* left: 74vh; */
+    left: 95vh;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 35px 35px 68px 0px rgba(157, 177, 255, 0.5);
+  }
+  
+
+
+  /* 登录 表单 */
+  /* 输入框、按钮样式 */
+  
+  .card-header{
+    position: absolute;
+    top:50px;
+    right:175px;
+  }
+  .header-font{
+    text-align: center;
+    font-size:39px;
+    
+  }
+
+  .card-second{
+    position: absolute;
+    width: 264px;
+    height: 350px;
+    top:120px;
+    left:80px;
+  }
+
+ 
+  .input {
+    border-radius: 8px;
+    background-color: #e9e9f7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    width: 275px;
+    height: 40px;
+    color: #7a7ab3;
+    border: 1px solid #dadaf7
+  }
+
+  
+  #normal_login_username{
+    background-color:rgb(233, 233, 247);
+  }
+  #normal_login_password{
+    background-color:rgb(233, 233, 247);
+  }
+
+  .input:focus-visible {
+    outline: 1px solid #aeaed6;
+   
+  }
+  
+  .input::placeholder {
+    color: #bcbcdf;
+  
+  }
+  
+ 
+  .buttons{
+    width: 272px;
+    display: flex;
+    
+  }
+  
+  #login-button {
+    background-color: #7878bd;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 7px 12px;
+    height: 40px;
+    width: 110px;
+    font-weight: 500;
+    color: white;
+  }
+  #login-button:hover{
+    background-color: #5f5f9c;
+  }
+  .sign-button{
+    background-color: #7878bd;
+    position: absolute;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 7px 12px;
+    height: 40px;
+    width: 110px;
+    font-weight: 500;
+    color: white;
+    bottom: 110px;
+    left: 192px;
+    margin-left: 52px;
+  }
+
+  /* 跳转注册页面盒子 */
+
+  button:hover {
+    background-color: #5f5f9c;
+  }
+  /* 底部其他登录 */
+  .card-icon{
+    display: flex;
+    width: 264px;
+    height: 40px;
+    margin-top: 5px;
+  }
+  .icon{
+    width: 66px;
+    height: 40px;
+    font-size: 24px;
+    padding-left: 21px;
+  }
+ 
+
+  /* 注册页面 */
+  .card-signUp {
+    display: block;
+    position: relative;
+    position: absolute;
+    top: 100px;
+    left: 95vh;
+    /* left: 74vh; */
+    width: 440px;
+    height: 504px;
+    border-radius: 30px;
+    background: rgb(240, 245, 250);
+    box-shadow: 15px 15px 30px #bebebe,
+               0px 0px 30px #ffffff;
+  }
+  .signUp-header{
+    width: 440px;
+    height: 24px;
+    position: absolute;
+    top: 40px;
+  }
+  .signUp-second{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 330px;
+  }
+
+  .sign-Div{
+    position: absolute;
+    left: 50px;
+    bottom: 80px;
+  }
+
+  .signUp-third{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    display: flex;
+  }
+
+  .signIn-button{
+    background-color: #7878bd;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 7px 12px;
+    height: 40px;
+    width: 110px;
+    font-weight: 500;
+    color: white;
+    margin-left: 60px;
+
+  }
+
+  .signUp-button{
+    background-color: #7878bd;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 7px 12px;
+    height: 40px;
+    width: 110px;
+    font-weight: 500;
+    color: white;
+  }
+
+
+  #basic_password{
+    
+      background-color: rgb(233, 233, 247)!important;
+  
+  }
+  .ant-col{
+    margin-top: 10px;
+  }
+  .profession{
+    position: absolute;
+   left: 30px;
+   width: 440px;
+   display: flex;
+  }
+  .Second-icon{
+    display: flex;
+    position:absolute;
+    bottom: 10px;
+    left: 55px;
+  }
+  #Input_M{
+    background-color: rgb(233, 233, 247);
+  }
+  
+  
+  
