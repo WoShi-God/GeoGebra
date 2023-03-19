@@ -1,12 +1,8 @@
-
 ## 项目技术栈
 
 本项目是一个提供几何展示的网站，目前利用的技术有Vite、React、Ant Design UI组件库、Three.js、Express、Axios、Node、MongoDB数据库等对网站的开发。
 
-
-
 ## 项目运行
-
 
 ```
 git clone --path 1：  https://github.com/WoShi-God/GeoGebraTeaching-Aid-System.git
@@ -17,6 +13,7 @@ pnpm install
 
 pnpm run dev 
 ```
+
 #### 注意
 ```
 如果不启动服务器，那么登录不进去内页，该网站可以使用nodemon 进行启动server，但同时还需要有安装MongoDB的数据库才能运行，否则也登录不了页面。
@@ -27,7 +24,6 @@ nodemon indexRoute
 ```
 服务端返回数据的格式是类似这样子一个数据结构
 
-```
 {
     "_id": ObjectId("641581eea6f5558bc1baccd9"),
     "userId": "63e8aac3bcfed66fe3e424dd",
@@ -36,8 +32,6 @@ nodemon indexRoute
     "username": "李密",
     "__v": NumberInt("0")
 }
-
-```
 
 这个React的项目跟nodejs的Express框架和Axios配合做接口的开发。
 
@@ -73,7 +67,6 @@ src:{
 }
 ```
 
-
 ### http请求示例：
 ```
 import axios from 'axios'
@@ -89,6 +82,7 @@ axios.patch('http://localhost:3000/teacher/update/' + id, value).then(res => {
         })
 
 ```
+
 ### 后端路由级路由示例：
 ```
 import express from 'express'
@@ -130,10 +124,8 @@ export default userModel;
 - [√] 个人信息头像上传功能
 - [√] 各后端数据接口
 
-
-
 ## 总结
 
 1、这整个技术栈写熟悉了之后，用来做后台管理系统类的实在是很方便。
 
-2、目前来说，不足的地方是在于没有很好的处理每个用户的头像分配功能，日后再补充上；
+2、目前来说，不足的地方是在于没有很好的处理每个用户的头像分配功能，日后再补充上，由于本人的技术知识有限，整个网站还有许多瑕疵。
