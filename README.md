@@ -15,15 +15,16 @@ pnpm run dev
 ```
 
 #### 注意
-```
-如果不启动服务器，那么登录不进去内页，该网站可以使用nodemon 进行启动server，但同时还需要有安装MongoDB的数据库才能运行，否则也登录不了页面。
-```
+
+>如果不启动服务器，那么登录不进去内页，该网站可以使用nodemon 进行启动server，但同时还需要有安装MongoDB的数据库才能运行，否则也登录不了页面。
+
 ```
 nodemon indexRoute
 ```
-```
-服务端返回数据的格式是类似这样子一个数据结构
 
+>服务端返回数据的格式是类似这样子一个数据结构
+
+```
 {
     "_id": ObjectId("641581eea6f5558bc1baccd9"),
     "userId": "63e8aac3bcfed66fe3e424dd",
@@ -32,10 +33,10 @@ nodemon indexRoute
     "username": "李密",
     "__v": NumberInt("0")
 }
-
-这个React的项目跟nodejs的Express框架和Axios配合做接口的开发。
-
 ```
+
+>这个React的项目跟nodejs的Express框架和Axios配合做接口的开发。
+
 
 ## 说明
 
@@ -44,8 +45,10 @@ nodemon indexRoute
 >机带 RAM	8.00 GB (7.85 GB 可用)
 >系统类型	64 位操作系统, 基于 x64 的处理器
 
->  如果pnpm install太慢导致有些依赖包下载失败 你可以看控制台的报错信息，再手动pnpm install 具体的开发包，直接运行，
+>如果pnpm install太慢导致有些依赖包下载失败 你可以看控制台的报错信息，再手动pnpm install 具体的开发包，直接运行;
+
 >例：
+
 ```
 npm install -g express
 ```
@@ -80,7 +83,6 @@ axios.patch('http://localhost:3000/teacher/update/' + id, value).then(res => {
                 alert('很遗憾账号密码修改失败！！！')
             }
         })
-
 ```
 
 ### 后端路由级路由示例：
