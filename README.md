@@ -17,7 +17,7 @@ pnpm run dev
 #### 注意
 
 >如果不启动服务器，那么登录不进去内页，该网站可以使用nodemon 进行启动server，但同时还需要有安装MongoDB的数据库才能运行，否则也登录不了页面。
-
+>在server文件夹终端启动！！！
 ```
 nodemon indexRoute
 ```
